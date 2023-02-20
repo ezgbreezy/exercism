@@ -45,7 +45,7 @@ bool is_armstrong_number(int candidate)
         number += pow(digits[i], count);
     }
 
-    // Print number
+    // TEST: Print number
     printf("NUMBER: %i\n", number);
 
     // Check if number is Armstrong Number
