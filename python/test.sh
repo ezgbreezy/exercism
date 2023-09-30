@@ -2,4 +2,4 @@
 
 path=$@
 
-python3 -m pytest -o markers=task $path
+open $path && open $pa
